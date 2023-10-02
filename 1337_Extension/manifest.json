@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "name": "1337_Extension",
+    "description": "For checkin and pool",
+    "version": "1.0",
+
+    "content_scripts": [{
+        "matches": ["https://www.google.com/*"],
+        "css": ["main.css"]
+    }]
+
+}
